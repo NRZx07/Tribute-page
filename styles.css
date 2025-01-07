@@ -1,0 +1,65 @@
+
+/* Center the image */
+#image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Style for the caption inside a box */
+  #img-caption {
+    text-align:center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 16px;
+    max-width: 80%;
+    margin: 10px auto;
+    border-radius: 5px;
+  }
+  
+  /* Styling for the list */
+  #tribute-info ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #tribute-info ul li {
+    margin: 10px 0;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  /* Styling for the last quote section */
+  #main > div:nth-of-type(2) {
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+  }
+  
+  /* Styling for the "read more" link section */
+  #main > div:nth-of-type(3) {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  #tribute-link {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  #tribute-link:hover {
+    text-decoration: underline;
+  }
+  #title {
+    text-align: center;
+    font-size: 36px;  /* Adjust size as needed */
+    margin-top: 20px; /* Adds some spacing above the heading */
+  }
+  
